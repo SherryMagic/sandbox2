@@ -10,12 +10,8 @@ You are encouraged to use the provided naming convention for ease of review.
 /* create variables to hold the values for modelName and duration */
 
 // INSERT YOUR CODE HERE
-const robotPrices = {
-    XYZ: 100,
-    CPRG: 213
-};
 
-let modelName = "XYZ"
+let modelName = "XYZ";
 let duration = 0;
 
 
@@ -107,7 +103,7 @@ function changeDuration() {
         duration = days;
         durationText.innerHTML = duration;
 
-        recalculate()
+        recalculate();
     } else {
         alert("Please enter a valid positive number or 0.");
     }
